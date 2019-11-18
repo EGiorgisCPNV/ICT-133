@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b53b8ef8-fe00-4c03-b415-f028dfdb453a" name="Default Changelist" comment="" />
+    <list default="true" id="f7335229-a939-4b78-9dd6-a1edfa27d972" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +16,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1TmWl6uMdnLZfYSvFbJi6jjfv8V" />
+  <component name="ProjectId" id="1TnANgTxOKS6CKJy6ilkAt346Ja" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,40 +33,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.Index.php">
-    <configuration name="Index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8082/Index.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
-      <method v="2" />
-    </configuration>
-    <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Index.php">
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.Index.php" />
-      <item itemvalue="PHP Built-in Web Server.WebServer" />
-      <item itemvalue="PHP Script.Index.php" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHP Script.Index.php" />
-        <item itemvalue="JavaScript Debug.Index.php" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b53b8ef8-fe00-4c03-b415-f028dfdb453a" name="Default Changelist" comment="" />
-      <created>1574065898742</created>
+      <changelist id="f7335229-a939-4b78-9dd6-a1edfa27d972" name="Default Changelist" comment="" />
+      <created>1574085447171</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574065898742</updated>
-      <workItem from="1574065899876" duration="1108000" />
-      <workItem from="1574084710119" duration="53000" />
+      <updated>1574085447171</updated>
+      <workItem from="1574085448302" duration="15000" />
     </task>
     <servers />
   </component>
@@ -81,9 +55,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

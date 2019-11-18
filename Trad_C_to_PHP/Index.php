@@ -1,3 +1,6 @@
+<html>
+<body>
+
 <?php
 
 $value=20;
@@ -7,17 +10,21 @@ $i=0;
 
 while($i<10){
     if($value>=30){
-        print_r("La valeur vaut $value \n");
+        print_r("La valeur vaut $value <br>");
 
     }
     else
     {
-        print_r("nombre trop petit \n");
+        print_r("nombre trop petit <br>");
     }
 
     $value+=$step;
     $i++;
 }
-
-
 ?>
+
+</body>
+</html>
+
+
+

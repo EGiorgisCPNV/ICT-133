@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bea6e62-77c6-4e34-9458-21119ea81f68" name="Default Changelist" comment="" />
+    <list default="true" id="dfba6103-ef5f-4a75-b9fc-41c0652e2937" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +17,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1Tn34cGeVRrFKR6UoolubvDnJby" />
+  <component name="ProjectId" id="1Tn9dRv2S5lENHuTvlUkcf9KG36" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Date" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="last_opened_file_path" value="C:/php/php.exe" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,25 +36,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.WebServer">
-    <configuration name="Index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trad_C_to_PHP/Index.php" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="PHP Script.indexx.php">
+    <configuration name="Server Web" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
       <method v="2" />
     </configuration>
-    <configuration name="WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
-      <method v="2" />
-    </configuration>
-    <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Index.php">
+    <configuration name="indexx.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/indexx.php">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.Index.php" />
-      <item itemvalue="PHP Built-in Web Server.WebServer" />
-      <item itemvalue="PHP Script.Index.php" />
+      <item itemvalue="PHP Built-in Web Server.Server Web" />
+      <item itemvalue="PHP Script.indexx.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.Index.php" />
-        <item itemvalue="JavaScript Debug.Index.php" />
+        <item itemvalue="PHP Script.indexx.php" />
       </list>
     </recent_temporary>
   </component>
@@ -63,19 +58,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1bea6e62-77c6-4e34-9458-21119ea81f68" name="Default Changelist" comment="" />
-      <created>1574081841518</created>
+      <changelist id="dfba6103-ef5f-4a75-b9fc-41c0652e2937" name="Default Changelist" comment="" />
+      <created>1574085079705</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574081841518</updated>
-      <workItem from="1574081842628" duration="1395000" />
-      <workItem from="1574083414710" duration="13000" />
-      <workItem from="1574083682563" duration="145000" />
-      <workItem from="1574084603038" duration="162000" />
-      <workItem from="1574084775139" duration="76000" />
-      <workItem from="1574084892052" duration="502000" />
-      <workItem from="1574085413672" duration="15000" />
-      <workItem from="1574085438501" duration="308000" />
+      <updated>1574085079705</updated>
+      <workItem from="1574085080825" duration="313000" />
     </task>
     <servers />
   </component>
@@ -87,9 +75,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -99,14 +85,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Index.php</url>
-          <line>28</line>
+          <url>file://$PROJECT_DIR$/indexx.php</url>
+          <line>1</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Index.php</url>
-          <line>26</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

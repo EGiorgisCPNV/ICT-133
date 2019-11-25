@@ -21,7 +21,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoArray" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RunDashboard">
@@ -77,6 +77,7 @@
       <workItem from="1574669178187" duration="15000" />
       <workItem from="1574669202908" duration="151000" />
       <workItem from="1574669398328" duration="21000" />
+      <workItem from="1574688564838" duration="814000" />
     </task>
     <servers />
   </component>

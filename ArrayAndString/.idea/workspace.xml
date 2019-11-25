@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="PHP information" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -28,7 +29,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Date" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.Index.php">
+  <component name="RunManager" selected="PHP Built-in Web Server.WebServer">
     <configuration name="WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
       <method v="2" />
     </configuration>
@@ -70,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574669865124</updated>
       <workItem from="1574669866255" duration="786000" />
+      <workItem from="1574687200072" duration="6432000" />
     </task>
     <servers />
   </component>
@@ -81,7 +85,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

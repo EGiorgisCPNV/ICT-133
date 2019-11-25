@@ -21,8 +21,8 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoArray" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,7 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.WebServer">
+  <component name="RunManager" selected="PHP Script.Date.php">
     <configuration name="Date.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8888/Date.php">
       <method v="2" />
     </configuration>
@@ -73,6 +73,10 @@
       <workItem from="1574084168204" duration="172000" />
       <workItem from="1574084349127" duration="299000" />
       <workItem from="1574085471010" duration="2389000" />
+      <workItem from="1574669021384" duration="147000" />
+      <workItem from="1574669178187" duration="15000" />
+      <workItem from="1574669202908" duration="151000" />
+      <workItem from="1574669398328" duration="21000" />
     </task>
     <servers />
   </component>

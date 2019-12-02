@@ -16,6 +16,7 @@
 
 <h1>CSS Calendar</h1>
 
+<!-- affiche le mois actuelle en lettre-->
 <div class="month">
     <ul>
         <li class="prev">&#10094;</li>
@@ -32,6 +33,7 @@
     </ul>
 </div>
 
+<!-- affiche les jours en lettre-->
 <ul class="weekdays">
     <?php
     //Tableau associatif des jours
@@ -52,12 +54,13 @@
     ?>
 </ul>
 
-
+<!-- affiche les jours en chiffre-->
 <ul class="days">
     <?php
 
-    //tableau
+    //tableau des jours en nombre
     $tableauNumJour = array();
+
 
     //boucle for qui aligne le jour avec le bon chiffre
     for($w=1;$w < 8-date("N");$w++){
@@ -66,6 +69,7 @@
 
     //boucle qui va afficher les 31 jours et qui va mettre en valeur le jour actuelle
     for ($a = 1; $a < 31; $a++) {
+
         $tableauNumJour[$a] = $a;
 
 

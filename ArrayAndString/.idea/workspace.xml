@@ -49,15 +49,20 @@
     <configuration name="WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
       <method v="2" />
     </configuration>
+    <configuration name="Calandrier_sans_tableau.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/Calandrier_sans_tableau.php">
+      <method v="2" />
+    </configuration>
     <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Index.php">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="PHP Built-in Web Server.WebServer" />
       <item itemvalue="PHP Script.Index.php" />
+      <item itemvalue="PHP Script.Calandrier_sans_tableau.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.Calandrier_sans_tableau.php" />
         <item itemvalue="PHP Script.Index.php" />
       </list>
     </recent_temporary>
@@ -77,7 +82,7 @@
       <workItem from="1574925205127" duration="193000" />
       <workItem from="1575269996559" duration="2418000" />
       <workItem from="1575273908078" duration="2703000" />
-      <workItem from="1575289986393" duration="8234000" />
+      <workItem from="1575289986393" duration="8627000" />
     </task>
     <servers />
   </component>

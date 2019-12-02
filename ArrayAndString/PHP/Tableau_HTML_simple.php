@@ -1,5 +1,5 @@
 <?php
-echo '<link rel="stylesheet" type="text/css" href="../CSS/DemoArrayCSS.css>';
+echo '<link rel="stylesheet" type="text/css" href="../CSS/Tableau_HTML_simple_CSS.css">';
 //auteur:Esteban
 //date:25.11.2019
 //titre:Tableau html simple
@@ -17,8 +17,10 @@ echo date("F") . "<br>";
 //création du tableau
 $tableauDate = array();
 
-// boucle for qui écrit de 1 a 31
-for ($y = 1; $y < 32; $y++) {
+$y=1;
+
+//boucle while qui ecrit le tableau de 1 a 31
+while($y<32){
     $tableauDate[$y] = $y;
 
 
@@ -35,11 +37,8 @@ for ($y = 1; $y < 32; $y++) {
         echo "<tr><td></td></tr>";
     }
 
-
+$y++;
 }
-
-
-
 
 echo '</table>';
 ?>

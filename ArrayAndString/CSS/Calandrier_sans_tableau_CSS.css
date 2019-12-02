@@ -1,7 +1,11 @@
 /*auteur:Esteban
 Date : 02.12.19
-description : css de l'exercice Calandrier_sans_tableau
+description : css de l'exercice Calandrier_sans_tableau_CSS
  */
+
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
 
 .month {
     padding: 70px 25px;
@@ -65,4 +69,18 @@ description : css de l'exercice Calandrier_sans_tableau
     padding: 5px;
     background: #1abc9c;
     color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
 }

@@ -6,8 +6,7 @@ echo '<link rel="stylesheet" type="text/css" href="../CSS/Tableau_HTML_simple_CS
 //version:1.0
 //Description:exercice Array et String
 
-
-/* pour voir les info de ta version de php <?php phpinfo();?>*/
+//crée la table
 echo '<table>';
 
 //ecrire le mois
@@ -17,18 +16,17 @@ echo date("F") . "<br>";
 //création du tableau
 $tableauDate = array();
 
-$y=1;
+$y = 1;
 
 //boucle while qui ecrit le tableau de 1 a 31
-while($y<32){
+while ($y < 32) {
     $tableauDate[$y] = $y;
 
 
     //condition qui change la couleur 1 fois sur 2
-    if($y%2!=1){
+    if ($y % 2 != 1) {
         echo "<td class='carreBleu'>$tableauDate[$y]</td>";
-    }
-    else {
+    } else {
         echo "<td class='carreNormale'>$tableauDate[$y]</td>";
     }
 
@@ -37,9 +35,11 @@ while($y<32){
         echo "<tr><td></td></tr>";
     }
 
-$y++;
+    //incrémente de 1 ma variable $y
+    $y++;
 }
 
+//ferme la table
 echo '</table>';
 ?>
 

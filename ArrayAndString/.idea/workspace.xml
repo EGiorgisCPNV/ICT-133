@@ -31,7 +31,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Date" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,7 +82,9 @@
       <workItem from="1574925205127" duration="193000" />
       <workItem from="1575269996559" duration="2418000" />
       <workItem from="1575273908078" duration="2703000" />
-      <workItem from="1575289986393" duration="8627000" />
+      <workItem from="1575289986393" duration="8700000" />
+      <workItem from="1575472897464" duration="79000" />
+      <workItem from="1575473014100" duration="645000" />
     </task>
     <servers />
   </component>

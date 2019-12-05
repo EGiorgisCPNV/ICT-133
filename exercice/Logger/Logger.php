@@ -8,8 +8,11 @@
 
 //<editor-fold desc="private attributes"> //add region in phpstorm -> https://blog.jetbrains.com/phpstorm/2012/03/new-in-4-0-custom-code-folding-regions/
 $logName = "application.log";//define log file name
-$fileFullPath = setFullPath($logName);//define the full path until the log file
+$fileFullPath = setFullPath($logName);//define the full path until the log file (ou il va appeler la fonction sauf qu'il va changer l'argument logName)
 $logHeader = "TimeStamp\t\t\tLevel\tMessage";//set the header of the future log file
+
+
+
 //</editor-fold>
 
 //<editor-fold desc="tests automation - entry point">
@@ -31,8 +34,13 @@ function setFullPath($fName)
         get current directory -> http://php.net/manual/en/function.getcwd.php
     */
 
-    //TODO - il vous faut coder le corps e cette fonction
+    //TODO - il vous faut coder le corps de cette fonction
 
+    //création d'une variable qui est égale au lien de l'exercice + l'arguement qui sera changer avec la variable $logName qui elle contient "application.log"
+    $currentFile=getcwd()."\\".$fName;
+
+
+    return $currentFile;
 
 }
 
@@ -49,7 +57,15 @@ function writeMsgInFile($fileFullPath, $lineToWrite, $erase)
     //http://php.net/manual/en/function.fopen.php
     */
 
-    //TODO - il vous faut coder le corps e cette fonction
+    //TODO - il vous faut coder le corps de cette fonction
+
+    //$a va etre égale au dossier qu'il va ouvrire avec les permissions
+    $a=fopen("$fileFullPath", "w");
+
+    fwrite($a,$lineToWrite,10);
+
+
 }
+
 //</editor-fold>
 ?>

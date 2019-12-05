@@ -1,9 +1,9 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: raphael.favre
- * Date: 01.12.2018
- * Time: 21:02
+ * User: Esteban Giorgis
+ *
+ * Date: 05.12.2018
  * Title : DemoArrays.php
  */
 
@@ -23,11 +23,23 @@ $browsers[1]='Oper';
 
 
 
+
+
 //TODO - il vous faut coder ici
 
 // Loop through an Indexed Array
-$arrLength = count($browsers);      // Assign the number of Elements of the Array '$browsers'
-$browsersList = "";
+$arrLength = count($browsers);// Assign the number of Elements of the Array '$browsers'
+
+for($i=0;$i<4;$i++) {
+
+    foreach ($browsers[$i] as $browsersList) {
+        $browsersList = "Safari - Opera - Chrome - Firefox";
+    }
+    echo $browsers[$i];
+}
+
+
+
 //TODO - il vous faut coder ici
 
 //</editor-fold>

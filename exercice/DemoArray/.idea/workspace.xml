@@ -14,7 +14,7 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1U6G1WjYjG840A4modXRWujlVEn" />
@@ -49,8 +49,8 @@
     </configuration>
     <list>
       <item itemvalue="PHP Built-in Web Server.ServerWeb" />
-      <item itemvalue="PHPUnit.DemoArray" />
       <item itemvalue="PHP Script.DemoArrays.php" />
+      <item itemvalue="PHPUnit.DemoArray" />
     </list>
     <recent_temporary>
       <list>
@@ -70,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574669416707</updated>
       <workItem from="1574669417818" duration="455000" />
+      <workItem from="1575558639860" duration="2365000" />
     </task>
     <servers />
   </component>
@@ -81,7 +82,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

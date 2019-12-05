@@ -46,7 +46,7 @@ function setFullPath($fName)
 
 /**
  * This function is designed to write a string message in a file.
- * -The opening and closing action is managed by the fuction
+ * -The opening and closing action is managed by the function
  * @param $fileFullPath : The path containing expressing the path from the root to the filename
  * @param $lineToWrite : Is the content to write in the file.
  * @param $erase : Is an option allowing to erase the file before writing or happening the $lineToWrite a the end of the file
@@ -59,11 +59,17 @@ function writeMsgInFile($fileFullPath, $lineToWrite, $erase)
 
     //TODO - il vous faut coder le corps de cette fonction
 
-    //$a va etre égale au dossier qu'il va ouvrire avec les permissions
-    $a=fopen("$fileFullPath", "w");
+    if($erase==true){
+        //$handle va etre égale au dossier qu'il va ouvrire avec les permissions
+        $handle=fopen("$fileFullPath", "w");
+        fwrite($handle,$lineToWrite);
+    }
+    else{
+        fwrite($handle,$lineToWrite);
+    }
 
-    fwrite($a,$lineToWrite,10);
 
+    fclose($handle);
 
 }
 

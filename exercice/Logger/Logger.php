@@ -17,7 +17,7 @@ $logHeader = "TimeStamp\t\t\tLevel\tMessage";//set the header of the future log 
 
 //<editor-fold desc="tests automation - entry point">
 //create file and set header
-writeMsgInFile($fileFullPath, $logHeader, true);
+writeMsgInFile($fileFullPath, $logHeader, true);//appele de fonction writeMsgInFile
 //</editor-fold>
 
 //<editor-fold desc="function">
@@ -59,17 +59,22 @@ function writeMsgInFile($fileFullPath, $lineToWrite, $erase)
 
     //TODO - il vous faut coder le corps de cette fonction
 
-    if($erase==true){
-        //$handle va etre égale au dossier qu'il va ouvrire avec les permissions
+    //cette condition va regarder si il y a deja le titre ecrit si oui elle va le supprimer puis en créer un si il n'y a pas deja un titre écrit alors elle va juste continuer a écrire le titre
+    if($erase){
+        //$handle va etre égale au dossier qu'il va ouvrir avec les permissions
         $handle=fopen("$fileFullPath", "w");
         fwrite($handle,$lineToWrite);
+        fclose($handle);
     }
     else{
+        //$handle va etre égale au dossier qu'il va ouvrir avec les permissions
+        $handle=fopen("$fileFullPath", "a");
         fwrite($handle,$lineToWrite);
+        fclose($handle);
     }
 
 
-    fclose($handle);
+
 
 }
 

@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PHP/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
+            <state relative-caret-position="225">
               <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
@@ -52,7 +52,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -63,12 +62,13 @@
             <path>
               <item name="Logger-Step02" type="b2602c69:ProjectViewProjectNode" />
               <item name="Logger-Step02" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,23 +119,24 @@
       <updated>1575804732554</updated>
       <workItem from="1575804733899" duration="320000" />
       <workItem from="1575805103670" duration="1480000" />
-      <workItem from="1575806607674" duration="9837000" />
+      <workItem from="1575806607674" duration="9868000" />
+      <workItem from="1575816922588" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11637000" />
+    <option name="totallyTimeSpent" value="11679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08848614" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08901919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.21451788" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.21451788" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -166,9 +167,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Log/application.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
+        <state relative-caret-position="225">
           <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />

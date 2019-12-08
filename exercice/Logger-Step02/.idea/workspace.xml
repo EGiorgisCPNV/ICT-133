@@ -64,6 +64,11 @@
               <item name="Logger-Step02" type="462c0819:PsiDirectoryNode" />
               <item name="Log" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Logger-Step02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Logger-Step02" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -121,17 +126,19 @@
       <workItem from="1575805103670" duration="1480000" />
       <workItem from="1575806607674" duration="9868000" />
       <workItem from="1575816922588" duration="11000" />
+      <workItem from="1575817039434" duration="13000" />
+      <workItem from="1575817074422" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11679000" />
+    <option name="totallyTimeSpent" value="11709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08901919" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09008529" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -157,9 +164,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Index.php" />
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log" />
     <entry file="file://$PROJECT_DIR$/PHP/application.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">

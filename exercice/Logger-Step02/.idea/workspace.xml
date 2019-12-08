@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/PHP/Index.php" line="145" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="32d9c262-1905-443f-9d8c-1898695ddb48" name="Default Changelist" comment="" />
+    <list default="true" id="aa551a36-a215-43c3-bdca-ea209f7c86c9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +14,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PHP/DemoArrays.php">
+        <entry file="file://$PROJECT_DIR$/PHP/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-816" />
+            <state relative-caret-position="952">
+              <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+              <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -25,18 +33,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DemoArrays.php" />
+        <option value="$PROJECT_DIR$/Index.php" />
+        <option value="$PROJECT_DIR$/PHP/application.log" />
+        <option value="$PROJECT_DIR$/PHP/Index.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="915" />
-    <option name="y" value="147" />
+    <option name="x" value="413" />
+    <option name="y" value="-21" />
     <option name="width" value="974" />
     <option name="height" value="1046" />
   </component>
-  <component name="ProjectId" id="1U6G1WjYjG840A4modXRWujlVEn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -48,12 +57,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="DemoArray" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DemoArray" type="462c0819:PsiDirectoryNode" />
+              <item name="Logger-Step02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Logger-Step02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DemoArray" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DemoArray" type="462c0819:PsiDirectoryNode" />
+              <item name="Logger-Step02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Logger-Step02" type="462c0819:PsiDirectoryNode" />
               <item name="PHP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -64,13 +73,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Logger" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="web.server" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\CPNV-----------------------------------------------------------------------\2ème année\2eme trimestre\ICT-133\Git-Hub-133\ICT-133\exercice" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,25 +91,19 @@
     </option>
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.ServerWeb">
-    <configuration name="DemoArray" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner directory="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="ServerWeb" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
       <method v="2" />
     </configuration>
-    <configuration name="DemoArrays.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/DemoArrays.php">
+    <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/Index.php">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="PHP Built-in Web Server.ServerWeb" />
-      <item itemvalue="PHP Script.DemoArrays.php" />
-      <item itemvalue="PHPUnit.DemoArray" />
+      <item itemvalue="PHP Script.Index.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.DemoArrays.php" />
-        <item itemvalue="PHPUnit.DemoArray" />
+        <item itemvalue="PHP Script.Index.php" />
       </list>
     </recent_temporary>
   </component>
@@ -112,37 +112,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32d9c262-1905-443f-9d8c-1898695ddb48" name="Default Changelist" comment="" />
-      <created>1574669416707</created>
+      <changelist id="aa551a36-a215-43c3-bdca-ea209f7c86c9" name="Default Changelist" comment="" />
+      <created>1575804732554</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574669416707</updated>
-      <workItem from="1574669417818" duration="455000" />
-      <workItem from="1575558639860" duration="2365000" />
-      <workItem from="1575712914128" duration="8933000" />
-      <workItem from="1575803745168" duration="701000" />
-      <workItem from="1575804614360" duration="45000" />
-      <workItem from="1575804689280" duration="44000" />
-      <workItem from="1575806317151" duration="6000" />
-      <workItem from="1575806568496" duration="17000" />
-      <workItem from="1575808876574" duration="2000" />
+      <updated>1575804732554</updated>
+      <workItem from="1575804733899" duration="320000" />
+      <workItem from="1575805103670" duration="1480000" />
+      <workItem from="1575806607674" duration="9837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9748000" />
+    <option name="totallyTimeSpent" value="11637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09541578" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08848614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.12026002" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.21451788" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -150,7 +144,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021322" side_tool="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -160,52 +154,26 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DemoArrays.php" />
-    <entry file="file://$USER_HOME$/Downloads/Logger_Step02_Start.php">
+    <entry file="file://$PROJECT_DIR$/Index.php" />
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/application.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="22" selection-end-line="124" selection-end-column="2" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Logger_Step02_Start.php" />
-    <entry file="file://$PROJECT_DIR$/PHP/DemoArrays.php">
+    <entry file="file://$PROJECT_DIR$/PHP/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816" />
+        <state relative-caret-position="952">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

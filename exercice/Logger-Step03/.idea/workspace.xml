@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5520f211-07fb-40fb-bd24-beb383396faf" name="Default Changelist" comment="" />
+    <list default="true" id="cf87969b-6ac7-43f6-92d6-9533e72eca27" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,25 +13,16 @@
       <executable />
     </execution>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="PHP information" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1U6Gw0Cga5uQERHn9oh3syLXKUe" />
+  <component name="ProjectId" id="1UjkJifW5hkuVPonFeQwc5p1IRf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Logger-Step01" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,24 +36,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.WebServer">
-    <configuration name="WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
-      <method v="2" />
-    </configuration>
-    <configuration name="Calandrier_sans_tableau.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/Calandrier_sans_tableau.php">
+  <component name="RunManager" selected="PHP Built-in Web Server.ServerWeb">
+    <configuration name="ServerWeb" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
       <method v="2" />
     </configuration>
     <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Index.php">
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="PHP Built-in Web Server.WebServer" />
-      <item itemvalue="PHP Script.Index.php" />
-      <item itemvalue="PHP Script.Calandrier_sans_tableau.php" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.Calandrier_sans_tableau.php" />
         <item itemvalue="PHP Script.Index.php" />
       </list>
     </recent_temporary>
@@ -72,20 +54,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5520f211-07fb-40fb-bd24-beb383396faf" name="Default Changelist" comment="" />
-      <created>1574669865124</created>
+      <changelist id="cf87969b-6ac7-43f6-92d6-9533e72eca27" name="Default Changelist" comment="" />
+      <created>1575877321501</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574669865124</updated>
-      <workItem from="1574669866255" duration="786000" />
-      <workItem from="1574687200072" duration="6480000" />
-      <workItem from="1574925205127" duration="193000" />
-      <workItem from="1575269996559" duration="2418000" />
-      <workItem from="1575273908078" duration="2703000" />
-      <workItem from="1575289986393" duration="8700000" />
-      <workItem from="1575472897464" duration="79000" />
-      <workItem from="1575473014100" duration="645000" />
-      <workItem from="1575879638403" duration="104000" />
+      <updated>1575877321501</updated>
+      <workItem from="1575877322655" duration="1588000" />
+      <workItem from="1575879110185" duration="381000" />
+      <workItem from="1575879787317" duration="2349000" />
+      <workItem from="1575883668025" duration="11000" />
+      <workItem from="1575896607039" duration="5790000" />
     </task>
     <servers />
   </component>
@@ -104,5 +82,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Index.php</url>
+          <line>113</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

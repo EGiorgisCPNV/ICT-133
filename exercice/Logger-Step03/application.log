@@ -1,0 +1,7 @@
+TimeStamp			Level	Message
+2019-12-09 14:44:23	Info	This is an info
+2019-12-09 14:44:23	Warning	This a warning
+2019-12-09 14:44:23	Error	This an error
+2019-12-09 14:44:23	Unknown	This an unknown
+2019-12-09 14:44:23	Info	Too short
+2019-12-09 14:44:23	Info	This is a very long info message

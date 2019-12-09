@@ -44,6 +44,8 @@ function setFullPath($fName)
 
 }
 
+
+
 /**
  * This function is designed to write a string message in a file.
  * -The opening and closing action is managed by the function
@@ -62,7 +64,7 @@ function writeMsgInFile($fileFullPath, $lineToWrite, $erase)
     //cette condition va regarder si il y a deja le titre ecrit si oui elle va le supprimer puis en créer un si il n'y a pas deja un titre écrit alors elle va juste continuer a écrire le titre
     if($erase){
         //$handle va etre égale au dossier qu'il va ouvrir avec les permissions
-        $handle=fopen("$fileFullPath", "w");
+        $handle=fopen("$fileFullPath", "w+");
         fwrite($handle,$lineToWrite);
         fclose($handle);
     }

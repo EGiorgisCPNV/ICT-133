@@ -31,10 +31,12 @@ foreach ($testValues as $msg)
 {
     //here may a good place to call the function prepareMsgToWrite()...
     $msgFormatted = prepareMsgToWrite($msg[1],$msg[0]);
-    checkMsgToWrite($msg[1],0,15);
-    writeMsgInFile($fileFullPath, $msgFormatted, false);
 
-    echo $msg[1] .'<br>';
+   if(checkMsgToWrite($msg[1],10,15)) {
+       writeMsgInFile($fileFullPath, $msgFormatted, false);
+   }
+
+
 
 }
 
@@ -78,7 +80,7 @@ function writeMsgInFile($fileFullPath, $lineToWrite, $erase)
     //TODO - a good place to code ;)
     $strWriter = null;
     if($erase){
-        $strWriter = fopen($fileFullPath, "w");
+        $strWriter = fopen($fileFullPath, "w+");
     }
     else{
         $strWriter = fopen($fileFullPath, "a");
@@ -104,26 +106,33 @@ function checkMsgToWrite($msg, $minLength, $maxLength)
         http://php.net/manual/en/function.substr.php
     */
 
-
-
     //TODO - a good place to code ;)
 
-    $msgChecked=substr($msg,$minLength, $maxLength);
-    $msgChecked = strlen($msg);
 
-   if ($msgChecked<$minLength || $msgChecked>$maxLength)
+
+    /*cette variable contiendra que du 1er au 15ème caractere du contenue de la variable $msg
+    $msgChecked=substr($msg,0,$maxLength);
+*/
+
+    //$msgCheckedNum contient le nbr de caractere que vaut $msg
+    $msgCheckedNum = strlen($msg);
+
+
+    //cette condition va verifier si le mot a bien la bonne quantitié minimal et maximal de caractère
+   if ($msgCheckedNum<$minLength)
     {
-    echo "out ";
+      //ne retourn rien donc n'affiche rien (l'ignore)
+      return false;
     }
-    else{
-        echo "in ";
+    else if($msgCheckedNum>$maxLength){
+
+        echo $msg;
+        return false;
+
     }
 
+return $msg;
 
-
-
-
-    return $msgChecked;
 }
 
 /**
@@ -140,6 +149,12 @@ function nbOfCharInMsg($msgToCount)
     */
 
     //TODO - a good place to code ;)
+
+    //$msgCheckedNum contient le nbr de caractere que vaut $msgToCount
+    $msgCharCount = strlen($msgToCount);
+
+
+    return $msgCharCount;
 }
 
 /**
@@ -202,5 +217,10 @@ function convertLevelIntToDescription($levelNumber)
     return $levelDescription;
 }
 
+
 //</editor-fold>
 ?>
+
+
+
+

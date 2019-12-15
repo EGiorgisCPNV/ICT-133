@@ -19,7 +19,7 @@ writeMsgInFile($fileFullPath, $logHeader, true);
 
 //http://php.net/manual/en/language.types.array.php
 $testValues = array(
-    "1" => array(1,"This is an info"),
+    "1" => array(1, "This is an info"),
     "2" => array(2, "This a warning"),
     "3" => array(3, "This an error"),
     "4" => array(24, "This an unknown"),
@@ -27,20 +27,17 @@ $testValues = array(
     "6" => array(1, "This is a very long info message")
 );
 
-foreach ($testValues as $msg)
-{
+foreach ($testValues as $msg) {
     //here may a good place to call the function prepareMsgToWrite()...
-    $msgFormatted = prepareMsgToWrite($msg[1],$msg[0]);
+    $msgVerifier = checkMsgToWrite($msg[1], 10, 15);
 
-   if(checkMsgToWrite($msg[1],10,15)) {
-       writeMsgInFile($fileFullPath, $msgFormatted, false);
-   }
-
-
+    //cette condition va verifier le retour de $msgVerifier et si le retour est true il va faire ce qu'il y a dans la condition
+    if($msgVerifier){
+        $msgFormatted = prepareMsgToWrite($msgVerifier, $msg[0]);
+        writeMsgInFile($fileFullPath, $msgFormatted, false);
+    }
 
 }
-
-
 
 
 //</editor-fold>
@@ -79,15 +76,14 @@ function writeMsgInFile($fileFullPath, $lineToWrite, $erase)
 
     //TODO - a good place to code ;)
     $strWriter = null;
-    if($erase){
-        $strWriter = fopen($fileFullPath, "w+");
-    }
-    else{
+    if ($erase) {
+        $strWriter = fopen($fileFullPath, "w");
+    } else {
         $strWriter = fopen($fileFullPath, "a");
 
     }
 
-    fwrite($strWriter, $lineToWrite  . "\r\n");
+    fwrite($strWriter, $lineToWrite . "\r\n");
     fclose($strWriter);
 }
 
@@ -108,32 +104,25 @@ function checkMsgToWrite($msg, $minLength, $maxLength)
 
     //TODO - a good place to code ;)
 
-
-
-    /*cette variable contiendra que du 1er au 15ème caractere du contenue de la variable $msg
-    $msgChecked=substr($msg,0,$maxLength);
-*/
-
     //$msgCheckedNum contient le nbr de caractere que vaut $msg
-    $msgCheckedNum = strlen($msg);
-
+    $msgCheckedNum = nbOfCharInMsg($msg);
 
     //cette condition va verifier si le mot a bien la bonne quantitié minimal et maximal de caractère
-   if ($msgCheckedNum<$minLength)
-    {
-      //ne retourn rien donc n'affiche rien (l'ignore)
-      return false;
-    }
-    else if($msgCheckedNum>$maxLength){
+    if ($msgCheckedNum < $minLength) {
 
-        echo $msg;
+        //ne retourn rien donc n'affiche rien (l'ignore)
         return false;
 
+    } else if ($msgCheckedNum > $maxLength) {
+
+        //$msgRightSize va contenir le message trop grand mais qui sera réduit avec les nbr de caractere autorisé
+        $msgRightSize=substr($msg,0,19);
+        return $msgRightSize;
+
     }
-
-return $msg;
-
+    return $msg;
 }
+
 
 /**
  * This function is designed to count the amount of char in a string
@@ -199,8 +188,7 @@ function convertLevelIntToDescription($levelNumber)
     http://php.net/manual/en/control-structures.switch.php
     */
     $levelDescription = "";
-    switch ($levelNumber)
-    {
+    switch ($levelNumber) {
         case 1:
             $levelDescription = "Info";
             break;

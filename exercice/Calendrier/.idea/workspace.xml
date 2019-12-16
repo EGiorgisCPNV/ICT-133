@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dda9e3b-f97e-40bc-9279-ba3f84e84f03" name="Default Changelist" comment="" />
+    <list default="true" id="5520f211-07fb-40fb-bd24-beb383396faf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,16 +13,24 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="PHP information" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1UWWv5BQ2uAIGtZofrkuLiEguws" />
+  <component name="ProjectId" id="1U6Gw0Cga5uQERHn9oh3syLXKUe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Logger-Step02" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
@@ -37,20 +45,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.ServerWeb">
-    <configuration name="ServerWeb" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
+  <component name="RunManager" selected="PHP Built-in Web Server.WebServer">
+    <configuration name="WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
       <method v="2" />
     </configuration>
-    <configuration name="Logger.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Logger.php">
+    <configuration name="Calandrier_sans_tableau.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/Calandrier_sans_tableau.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/../../../../php/php.exe">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Built-in Web Server.ServerWeb" />
-      <item itemvalue="PHP Script.Logger.php" />
+      <item itemvalue="PHP Built-in Web Server.WebServer" />
+      <item itemvalue="PHP Script.Index.php" />
+      <item itemvalue="PHP Script.Calandrier_sans_tableau.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.Logger.php" />
+        <item itemvalue="PHP Script.Index.php" />
+        <item itemvalue="PHP Script.Calandrier_sans_tableau.php" />
       </list>
     </recent_temporary>
   </component>
@@ -59,30 +72,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6dda9e3b-f97e-40bc-9279-ba3f84e84f03" name="Default Changelist" comment="" />
-      <created>1575473058807</created>
+      <changelist id="5520f211-07fb-40fb-bd24-beb383396faf" name="Default Changelist" comment="" />
+      <created>1574669865124</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575473058807</updated>
-      <workItem from="1575473059907" duration="1141000" />
-      <workItem from="1575493237247" duration="23000" />
-      <workItem from="1575532103062" duration="6782000" />
-      <workItem from="1575539603574" duration="5000" />
-      <workItem from="1575543692213" duration="6269000" />
-      <workItem from="1575558581453" duration="60000" />
-      <workItem from="1575806539413" duration="20000" />
-      <workItem from="1575808886618" duration="4000" />
-      <workItem from="1575878268024" duration="614000" />
-      <workItem from="1575878935624" duration="117000" />
-      <workItem from="1575879272301" duration="516000" />
-      <workItem from="1575879810864" duration="4000" />
-      <workItem from="1575880043476" duration="300000" />
-      <workItem from="1575901540035" duration="141000" />
-      <workItem from="1575901710392" duration="136000" />
-      <workItem from="1575902172728" duration="26000" />
-      <workItem from="1575902532289" duration="735000" />
-      <workItem from="1576485130582" duration="6000" />
-      <workItem from="1576486022213" duration="442000" />
+      <updated>1574669865124</updated>
+      <workItem from="1574669866255" duration="786000" />
+      <workItem from="1574687200072" duration="6480000" />
+      <workItem from="1574925205127" duration="193000" />
+      <workItem from="1575269996559" duration="2418000" />
+      <workItem from="1575273908078" duration="2703000" />
+      <workItem from="1575289986393" duration="8700000" />
+      <workItem from="1575472897464" duration="79000" />
+      <workItem from="1575473014100" duration="645000" />
+      <workItem from="1575879638403" duration="104000" />
+      <workItem from="1576256847737" duration="245000" />
+      <workItem from="1576326783377" duration="28000" />
+      <workItem from="1576485292976" duration="563000" />
     </task>
     <servers />
   </component>

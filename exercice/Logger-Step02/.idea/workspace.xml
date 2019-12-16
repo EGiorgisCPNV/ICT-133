@@ -21,7 +21,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Logger-Step01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calendrier" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="web.server" />
@@ -75,6 +75,7 @@
       <workItem from="1576181238055" duration="2000" />
       <workItem from="1576485303257" duration="541000" />
       <workItem from="1576485966283" duration="503000" />
+      <workItem from="1576490049488" duration="9000" />
     </task>
     <servers />
   </component>

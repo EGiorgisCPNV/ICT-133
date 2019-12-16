@@ -17,12 +17,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="109" />
-    <option name="y" value="307" />
-    <option name="width" value="974" />
-    <option name="height" value="1046" />
-  </component>
   <component name="ProjectId" id="1U6G1WjYjG840A4modXRWujlVEn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -94,6 +88,7 @@
       <workItem from="1576256828596" duration="23000" />
       <workItem from="1576485090914" duration="29000" />
       <workItem from="1576485915465" duration="33000" />
+      <workItem from="1576492271038" duration="389000" />
     </task>
     <servers />
   </component>

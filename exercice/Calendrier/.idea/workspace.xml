@@ -29,7 +29,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Logger-Step02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoArray_Logger-Step2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
@@ -62,8 +62,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.Index.php" />
         <item itemvalue="PHP Script.Calandrier_sans_tableau.php" />
+        <item itemvalue="PHP Script.Index.php" />
       </list>
     </recent_temporary>
   </component>
@@ -89,6 +89,10 @@
       <workItem from="1576256847737" duration="245000" />
       <workItem from="1576326783377" duration="28000" />
       <workItem from="1576485292976" duration="563000" />
+      <workItem from="1576490058306" duration="2722000" />
+      <workItem from="1576492814237" duration="287000" />
+      <workItem from="1576493208570" duration="1156000" />
+      <workItem from="1576494739867" duration="2891000" />
     </task>
     <servers />
   </component>

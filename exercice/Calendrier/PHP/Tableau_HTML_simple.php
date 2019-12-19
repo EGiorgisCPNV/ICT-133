@@ -1,10 +1,12 @@
 <?php
-echo '<link rel="stylesheet" type="text/css" href="../CSS/Tableau_HTML_simple_CSS.css">';
 //auteur:Esteban
 //date:25.11.2019
 //titre:Tableau html simple
 //version:1.0
 //Description:exercice Array et String
+
+echo '<link rel="stylesheet" type="text/css" href="../CSS/Tableau_HTML_simple_CSS.css">';
+
 
 //crée la table
 echo '<table>';

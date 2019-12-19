@@ -26,39 +26,13 @@
         <?php
 
 
-        ////////////////////////////////////
-        /// /*
-        /// switch ($_GET['test'])
-        /// case 'Janvier'
-        /// ...
-        /// ///////////////////////////////////////////////////
-
-
-
         //Tableau des mois
         $tableauMois = array('Janvier', 'Fevrier', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Decembre');
 
-
-        if (isset($_POST['test']))
-        {
-            $result=$_POST['test'];
-            echo $result . "<br>";
-            echo date("o");
-        }
-        else
-        {
-            $result=$tableauMois[date("m") - 1];
-            echo $result . "<br>";
-            echo date("o");
-        }
+        echo $_GET['Month'];
 
         ?>
 
-        <?php
-
-
-
-        ?>
     </ul>
 </div>
 
@@ -88,66 +62,13 @@
 <ul class="days">
     <?php
     //controller dois exister pour que se qui se passe en dessous puisse fonctionner
-    require "controller.php";
 
+/*
     if (isset($_POST['test'])){
 
-    $action=$_POST['test'];
-    switch($action){
-        case 'Janvier':
-            Janvier();
-            break;
-
-        case 'Fevrier':
-            Fevrier();
-            break;
-
-        case 'Mars':
-            Mars();
-            break;
-
-        case 'Avril':
-            Avril();
-            break;
-
-        case 'Mai':
-            Mai();
-            break;
-
-        case 'Join':
-            Join();
-            break;
-
-        case 'Juillet':
-            Juillet();
-            break;
-
-        case 'Aout':
-            Aout();
-            break;
-
-        case 'Septembre':
-            Septembre();
-            break;
-
-        case 'Octobre':
-            Octobre();
-            break;
-
-        case 'Novembre':
-            Novembre();
-            break;
-
-        default :
-            Decembre();
-            break;
-
-
-        }
 
     }
 
-    /*
     else
     {
 
@@ -173,29 +94,9 @@
 
     }
     */
-
-
     ?>
 </ul>
-<form method="POST" action="/PHP/Calandrier_sans_tableau.php">
 
-    <select name="test">
-        <option><?= $tableauMois[0]?></option>
-        <option><?= $tableauMois[1]?></option>
-        <option><?= $tableauMois[2]?></option>
-        <option><?= $tableauMois[3]?></option>
-        <option><?= $tableauMois[4]?></option>
-        <option><?= $tableauMois[5]?></option>
-        <option><?= $tableauMois[6]?></option>
-        <option><?= $tableauMois[7]?></option>
-        <option><?= $tableauMois[8]?></option>
-        <option><?= $tableauMois[9]?></option>
-        <option><?= $tableauMois[10]?></option>
-        <option><?= $tableauMois[11]?></option>
-    </select>
-
-    <input type="submit">
-</form>
 
 </body>
 </html>

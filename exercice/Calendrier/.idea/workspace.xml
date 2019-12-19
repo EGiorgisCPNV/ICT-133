@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5520f211-07fb-40fb-bd24-beb383396faf" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +39,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="PHP Built-in Web Server.WebServer">
     <configuration name="WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
       <method v="2" />
@@ -48,29 +61,22 @@
     <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/../../../../php/php.exe">
       <method v="2" />
     </configuration>
+    <configuration name="controller.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/controller.php">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="PHP Built-in Web Server.WebServer" />
       <item itemvalue="PHP Script.Index.php" />
       <item itemvalue="PHP Script.Calandrier_sans_tableau.php" />
+      <item itemvalue="PHP Script.controller.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.controller.php" />
         <item itemvalue="PHP Script.Calandrier_sans_tableau.php" />
         <item itemvalue="PHP Script.Index.php" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -106,6 +112,9 @@
       <workItem from="1576701452193" duration="2713000" />
       <workItem from="1576720879504" duration="553000" />
       <workItem from="1576737733592" duration="235000" />
+      <workItem from="1576741448586" duration="702000" />
+      <workItem from="1576742161301" duration="1352000" />
+      <workItem from="1576743525614" duration="3898000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5520f211-07fb-40fb-bd24-beb383396faf" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,23 +26,17 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1U6Gw0Cga5uQERHn9oh3syLXKUe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoArray_Logger-Step2" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Snow/133-Start-master" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.WebServer">
     <configuration name="WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
@@ -66,6 +59,18 @@
         <item itemvalue="PHP Script.Index.php" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -94,6 +99,13 @@
       <workItem from="1576493208570" duration="1156000" />
       <workItem from="1576494739867" duration="3613000" />
       <workItem from="1576501619505" duration="64000" />
+      <workItem from="1576686236093" duration="784000" />
+      <workItem from="1576687317334" duration="3140000" />
+      <workItem from="1576691468281" duration="227000" />
+      <workItem from="1576694487925" duration="286000" />
+      <workItem from="1576701452193" duration="2713000" />
+      <workItem from="1576720879504" duration="553000" />
+      <workItem from="1576737733592" duration="235000" />
     </task>
     <servers />
   </component>
@@ -126,5 +138,63 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="18" key="#CLI_Interpreters" timestamp="1576686916737">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="18" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1576686916737" />
+    <state x="62" y="62" key="#Index.php" timestamp="1576687007449">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="62" y="62" key="#Index.php/0.0.1366.728@0.0.1366.728" timestamp="1576687007449" />
+    <state x="390" y="0" key="#PHP" timestamp="1576686486428">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1576686486428" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576686806316">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1576686806316" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576702512187">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576702512187" />
+    <state width="1323" height="111" key="GridCell.Tab.0.bottom" timestamp="1576721442373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="111" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576721442373" />
+    <state width="1323" height="111" key="GridCell.Tab.0.center" timestamp="1576721442373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="111" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576721442373" />
+    <state width="1323" height="111" key="GridCell.Tab.0.left" timestamp="1576721442373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="111" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576721442373" />
+    <state width="1323" height="111" key="GridCell.Tab.0.right" timestamp="1576721442373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="111" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576721442373" />
+    <state x="178" y="290" key="NewPhpFileDialog" timestamp="1576702787503">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="178" y="290" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1576702787503" />
+    <state x="184" y="5" key="SettingsEditor" timestamp="1576686922158">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576686922158" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1576737801675">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576737801675" />
+    <state x="88" y="156" width="1222" height="717" key="dock-window-1" timestamp="1576720917424">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="88" y="156" width="1222" height="717" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1576720917424" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1576689084526">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576689084526" />
   </component>
 </project>

@@ -16,6 +16,7 @@
 
 <h1>CSS Calendar</h1>
 
+
 <!-- affiche le mois actuelle en lettre-->
 <div class="month">
     <ul>
@@ -23,6 +24,17 @@
         <li class="next">&#10095;</li>
 
         <?php
+
+
+        ////////////////////////////////////
+        /// /*
+        /// switch ($_GET['test'])
+        /// case 'Janvier'
+        /// ...
+        /// ///////////////////////////////////////////////////
+
+
+
         //Tableau des mois
         $tableauMois = array('Janvier', 'Fevrier', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Decembre');
 
@@ -36,13 +48,15 @@
         else
         {
             $result=$tableauMois[date("m") - 1];
+            echo $result . "<br>";
+            echo date("o");
         }
 
         ?>
 
         <?php
 
-        //affiche le mois en francais par rapport a l'index du tableau : $tableauMois
+
 
         ?>
     </ul>
@@ -73,21 +87,77 @@
 
 <ul class="days">
     <?php
-    if (isset($_POST['test']))
-    {
+    //controller dois exister pour que se qui se passe en dessous puisse fonctionner
+    require "controller.php";
 
-        //////////////////////////////////////////////////////////////////////////////
-        //tableau des jours en nombre
-        $tableauNumJour = array();
+    if (isset($_POST['test'])){
+
+    $action=$_POST['test'];
+    switch($action){
+        case 'Janvier':
+            Janvier();
+            break;
+
+        case 'Fevrier':
+            Fevrier();
+            break;
+
+        case 'Mars':
+            Mars();
+            break;
+
+        case 'Avril':
+            Avril();
+            break;
+
+        case 'Mai':
+            Mai();
+            break;
+
+        case 'Join':
+            Join();
+            break;
+
+        case 'Juillet':
+            Juillet();
+            break;
+
+        case 'Aout':
+            Aout();
+            break;
+
+        case 'Septembre':
+            Septembre();
+            break;
+
+        case 'Octobre':
+            Octobre();
+            break;
+
+        case 'Novembre':
+            Novembre();
+            break;
+
+        default :
+            Decembre();
+            break;
+
+
+        }
+
+    }
+
+    /*
+    else
+    {
 
         //boucle for qui aligne le jour avec le bon chiffre
         for($w=1;$w < 8-date("N");$w++){
             echo"<li></li>";
         }
 
-
         //boucle qui va afficher les 31 jours et qui va mettre en valeur le jour actuelle
-        for ($a = 1; $a < date("t"); $a++) {
+        for ($a = 1; $a <= date("t"); $a++) {
 
             $tableauNumJour[$a] = $a;
 
@@ -100,12 +170,9 @@
 
             }
         }
-        //////////////////////////////////////////////////////////////////////////////////////
+
     }
-    else
-    {
-        $result=$tableauMois[date("m") - 1];
-    }
+    */
 
 
     ?>

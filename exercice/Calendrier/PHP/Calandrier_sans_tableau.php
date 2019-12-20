@@ -25,12 +25,19 @@
 
         <?php
 
-
         //Tableau des mois
         $tableauMois = array('Janvier', 'Fevrier', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Decembre');
 
-        echo $_GET['Month'];
+        if (isset($_GET['Month'])) {
+            if($_GET['Month']!=//fait un for du $tableauMois)
+        } else
+            {
+                header('Location: /PHP/controller.php');
+            }
 
+        /* commance a faire le for ici
+        for($index=0;$index<)
+        */
         ?>
 
     </ul>

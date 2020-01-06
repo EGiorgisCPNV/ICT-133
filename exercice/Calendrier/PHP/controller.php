@@ -1,9 +1,19 @@
 <form method="GET" action="Calandrier_sans_tableau.php">
     <select name="Month">
-        <option >sdfds</option>
-        <option >asd</option>
-        <option >sd</option>
+        <option >Janvier</option>
+        <option >Fevrier</option>
+        <option >Mars</option>
+        <option >Avril</option>
+        <option >Mai</option>
+        <option >Juin</option>
+        <option >Juillet</option>
+        <option >Aout</option>
+        <option >Septembre</option>
+        <option >Octobre</option>
+        <option >Novembre</option>
+        <option >Decembre</option>
     </select>
+    <input type="number" name="Year">
     <input type="submit">
 </form>
 
@@ -16,6 +26,9 @@
  */
 
 $month = @$_GET['Month'];
+$year = @$_GET['Year'];
+
+
 
 ?>
 <a href="Calandrier_sans_tableau.php?val=<?= $month; ?>"></a>

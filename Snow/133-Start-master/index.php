@@ -9,14 +9,19 @@
 
 require "controler/controler.php";
 
+//use case qui va rediriger vers la page avec la fonction choisie, example : home()
 if(isset ($_GET['action'])){
     $Action=$_GET['action'];
     switch($Action){
         case 'home':
             home();
             break;
-        case 'contact':
-            contact();
+
+        case 'login':
+            login();
+            break;
+        case 'produit':
+            produit();
             break;
 
             default:

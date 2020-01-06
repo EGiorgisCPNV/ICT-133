@@ -27,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Exercice/Calendrier" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
@@ -66,6 +66,8 @@
       <workItem from="1576702517017" duration="1495000" />
       <workItem from="1576720857530" duration="22000" />
       <workItem from="1576743723136" duration="725000" />
+      <workItem from="1578295887465" duration="3832000" />
+      <workItem from="1578312143017" duration="8880000" />
     </task>
     <servers />
   </component>
@@ -90,5 +92,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="722" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576720857623" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/view/login.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

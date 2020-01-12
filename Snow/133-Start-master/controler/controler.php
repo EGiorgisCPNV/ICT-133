@@ -18,12 +18,17 @@ function home(){
 }
 
 
+/**
+ * Function to redirect the user to the login page
+ *  (epending the action received by the index)
+ */
 function login(){
 
     $_GET['action']="login";
     $username=@$_POST['username'];
     $password=@$_POST['password'];
 
+    //cette condition va checker ce que l'utilisateur va rentrer dans la page login est rediriger sur la page home si ce qu'il a rentrer correspond a la la fonction checkLogin dans le model.php sinon sur la page login sa sa ne corespond pas
     if(checkLogin($username,$password)){
         require "view/home.php";
     }
@@ -33,6 +38,10 @@ function login(){
 
 }
 
+/**
+ * Function to redirect the user to the produit page
+ *  (epending the action received by the index)
+ */
 function produit(){
     $_GET['action']="produit";
     require "view/produit.php";

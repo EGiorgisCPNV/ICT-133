@@ -67,7 +67,9 @@
 
 <ul class="days">
 <?php
+
 //controller dois exister pour que se qui se passe en dessous puisse fonctionner
+
 
 if (isset($month)) {
     switch ($month) {
@@ -136,7 +138,7 @@ if (isset($month)) {
     header('Location: /PHP/controller.php');
 }
 
-///////////////////////////////////////////////////////////////////////////////////
+// cette fonction va aligner le nombre du jour au bon jour
 function jourEcrit($Element)
 {
     //boucle for qui aligne le jour avec le bon chiffre
@@ -145,10 +147,11 @@ function jourEcrit($Element)
     }
 
 
-
+/*
     ///////////////////////////IMPORTANT
     echo date("m", mktime(0, 0, 0, 7, 1, 2000));
     //////////////////////////////////////////////////////////////////
+*/
 
 
 

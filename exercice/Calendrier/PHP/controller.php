@@ -24,7 +24,6 @@
  * Initial version by: Esteban.GIORGIS
  * Initial version created on: 16.12.2019 14:41
  */
-
 $month = @$_GET['Month'];
 $year = @$_GET['Year'];
 

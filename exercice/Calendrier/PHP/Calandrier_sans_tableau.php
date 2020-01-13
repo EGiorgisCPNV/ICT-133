@@ -31,11 +31,12 @@
 
         $month = $_GET['Month'];
         echo $month . "<br>";
+        echo "2019";
+
+        /* je ne l'utilise pas car je n'arrive pas a acorder les jour au mois ET avec l'année choisie
         $year = $_GET['Year'];
         echo $year."<br>";
-
-        //emplacement du premier hour du moi de janvier
-        echo date("w",mktime(0,0,0,1,1,$year));
+*/
 
         ?>
 
@@ -70,67 +71,79 @@
 
 //controller dois exister pour que se qui se passe en dessous puisse fonctionner
 
-
+//si il a choisis un mois alors il rentre dans la contition
 if (isset($month)) {
     switch ($month) {
         case $tableauMois[0]:
-            $Jan = 31;
-            jourEcrit($Jan);
+            $JanA = 2;//Coresspond numero du jour de la semaine(ex : 1=Lundi) pour le premier jour du mois (2 car le premier jour du mois est un mardi)
+            $JanB=31;
+            jourEcrit($JanA,$JanB);
             break;
 
         case $tableauMois[1]:
-            $Fev = 28;
-            jourEcrit($Fev);
+            $FevA = 5;//Coresspond numero du jour de la semaine(ex : 1=Lundi) pour le premier jour du mois
+            $FevB = 28;
+            jourEcrit($FevA,$FevB);
             break;
 
         case $tableauMois[2]:
-            $Mar = 31;
-            jourEcrit($Mar);
+            $MarA=5;//Coresspond numero du jour de la semaine(ex : 1=Lundi) pour le premier jour du mois
+            $MarB = 31;
+            jourEcrit($MarA,$MarB);
             break;
 
         case $tableauMois[3]:
-            $Avr = 30;
-            jourEcrit($Avr);
+            $AvrA=1;//Coresspond numero du jour de la semaine(ex : 1=Lundi) pour le premier jour du mois
+            $AvrB = 30;
+            jourEcrit($AvrA,$AvrB);
             break;
 
         case $tableauMois[4]:
-            $Mai = 31;
-            jourEcrit($Mai);
+            $MaiA=3;//Coresspond numero du jour de la semaine(ex : 1=Lundi) pour le premier jour du mois
+            $MaiB = 31;
+            jourEcrit($MaiA,$MaiB);
             break;
 
         case $tableauMois[5]:
-            $Juin = 30;
-            jourEcrit($Juin);
+            $JuinA=6;//Coresspond numero du jour de la semaine(ex : 1=Lundi) pour le premier jour du mois
+            $JuinB = 30;
+            jourEcrit($JuinA,$JuinB);
             break;
 
         case $tableauMois[6]:
-            $Juillet = 31;
-            jourEcrit($Juillet);
+            $JuilletA=1;//Coresspond numero du jour de la semaine(ex : 1=Lundi) pour le premier jour du mois
+            $JuilletB = 31;
+            jourEcrit($JuilletA,$JuilletB);
             break;
 
         case $tableauMois[7]:
-            $Aou = 31;
-            jourEcrit($Aou);
+            $AouA=4;//Coresspond numero du jour de la semaine(ex : 1=Lundi) pour le premier jour du mois
+            $AouB = 31;
+            jourEcrit($AouA,$AouB);
             break;
 
         case $tableauMois[8]:
-            $Sep = 30;
-            jourEcrit($Sep);
+            $SepA=7;//Coresspond numero du jour de la semaine(ex : 1=Lundi) pour le premier jour du mois
+            $SepB = 30;
+            jourEcrit($SepA,$SepB);
             break;
 
         case $tableauMois[9]:
-            $Oct = 31;
-            jourEcrit($Oct);
+            $OctA=2;//Coresspond numero du jour de la semaine(ex : 1=Lundi) pour le premier jour du mois
+            $OctB = 31;
+            jourEcrit($OctA,$OctB);
             break;
 
         case $tableauMois[10]:
-            $Nov = 30;
-            jourEcrit($Nov);
+            $NovA=5;//Coresspond numero du jour de la semaine(ex : 1=Lundi) pour le premier jour du mois
+            $NovB = 30;
+            jourEcrit($NovA,$NovB);
             break;
 
         case $tableauMois[11]:
-            $Dec = 31;
-            jourEcrit($Dec);
+            $DecA=7;//Coresspond numero du jour de la semaine(ex : 1=Lundi) pour le premier jour du mois
+            $DecB = 31;
+            jourEcrit($DecA,$DecB);
             break;
     }
 } else {
@@ -139,25 +152,18 @@ if (isset($month)) {
 }
 
 // cette fonction va aligner le nombre du jour au bon jour
-function jourEcrit($Element)
+function jourEcrit($Element,$Element2)
 {
+  $i=1;
     //boucle for qui aligne le jour avec le bon chiffre
-    for ($w = 1; $w < 8 - date("N"); $w++) {
+    while ( $i< $Element) {
         echo "<li></li>";
+        $i++;
     }
 
 
-/*
-    ///////////////////////////IMPORTANT
-    echo date("m", mktime(0, 0, 0, 7, 1, 2000));
-    //////////////////////////////////////////////////////////////////
-*/
-
-
-
-
     //boucle qui va afficher les 31 jours et qui va mettre en valeur le jour actuelle
-    for ($a = 1; $a <= $Element; $a++) {
+    for ($a = 1; $a <= $Element2; $a++) {
         $tableauNumJour[$a] = $a;
 
         //condition qui va mettre en valeur le jour actuelle
@@ -170,5 +176,4 @@ function jourEcrit($Element)
     }
 }
 
-////////////////////////////////////////////////////////////////////////////////////
 

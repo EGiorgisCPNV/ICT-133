@@ -13,6 +13,24 @@
 </head>
 <body>
 
+<form method="GET" action="Calandrier_sans_tableau.php">
+    <select name="Month">
+        <option >Janvier</option>
+        <option >Fevrier</option>
+        <option >Mars</option>
+        <option >Avril</option>
+        <option >Mai</option>
+        <option >Juin</option>
+        <option >Juillet</option>
+        <option >Aout</option>
+        <option >Septembre</option>
+        <option >Octobre</option>
+        <option >Novembre</option>
+        <option >Decembre</option>
+    </select>
+    <input type="submit">
+</form>
+
 
 <h1>CSS Calendar</h1>
 
@@ -29,14 +47,9 @@
         //Tableau des mois
         $tableauMois = array('Janvier', 'Fevrier', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Decembre');
 
-        $month = $_GET['Month'];
+        $month =@$_GET['Month'];
         echo $month . "<br>";
         echo "2019";
-
-        /* je ne l'utilise pas car je n'arrive pas a acorder les jour au mois ET avec l'année choisie
-        $year = $_GET['Year'];
-        echo $year."<br>";
-*/
 
         ?>
 
@@ -67,6 +80,9 @@
 <!-- affiche les jours en chiffre-->
 
 <ul class="days">
+
+
+
 <?php
 
 //controller dois exister pour que se qui se passe en dessous puisse fonctionner
@@ -147,8 +163,7 @@ if (isset($month)) {
             break;
     }
 } else {
-    //si il lance depuis cette page a savoir "Calandrier_sans_tableau.php" il va automatiquement le rediriger sur la page "controller.php"
-    header('Location: /PHP/controller.php');
+    echo "Veillez selectionner un mois svp";
 }
 
 // cette fonction va aligner le nombre du jour au bon jour

@@ -1,6 +1,8 @@
 ﻿<!DOCTYPE HTML>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="view/content/scripts/bootstrap/css/Calandrier_sans_tableau_CSS.css">
+
     <meta charset="utf-8">
     <title>Rent A Snow - Accueil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -76,10 +78,17 @@
                                 <?php endif ?>>
                                 <a href="index.php?action=home">Accueil</a></li>
 
+                                <!-- boutton produit-->
+                                <li<?php if( ($_GET['action']=="produit") )  : ?>
+                                    class="active"
+                                <?php endif ?>>
+                                    <a href="index.php?action=produit">Produit</a></li>
+
+
                                 <!-- boutton logout-->
                                 <?php if(isset($_SESSION['MotCle'])) : //les double points sont obligatoire sa remplace un "{" dans les fichier html?>
                                 <li><a href="index.php?action=logout">Logout</a></li>
-                                <label>Vous êtes connécté en tant que <?php $_SESSION['MotCle']?></label>
+                                <?php echo "<label>Vous êtes connecté en tant que </label>".$_SESSION['MotCle']?>
                                 <?php else :?>
 
                                     <!-- boutton login-->
@@ -89,11 +98,7 @@
                                 <a href="index.php?action=login">Login</a></li>
                                 <?php endif ?>
 
-                                <!-- boutton produit-->
-                                <li<?php if( ($_GET['action']=="produit") )  : ?>
-                                    class="active"
-                                <?php endif ?>>
-                                    <a href="index.php?action=produit">Produit</a></li>
+
 
 
                             </ul>

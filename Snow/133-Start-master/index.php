@@ -18,8 +18,9 @@ if(isset ($_GET['action'])){
             break;
 
         case 'login':
-            login();
+            login(@$_POST);
             break;
+
         case 'produit':
             produit();
             break;

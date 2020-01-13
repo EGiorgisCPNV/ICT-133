@@ -25,12 +25,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3" />
-    <option name="y" value="-16" />
-    <option name="width" value="974" />
-    <option name="height" value="1046" />
-  </component>
   <component name="ProjectId" id="1U6Gw0Cga5uQERHn9oh3syLXKUe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Snow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
@@ -129,6 +123,8 @@
       <workItem from="1578825652217" duration="911000" />
       <workItem from="1578827237855" duration="347000" />
       <workItem from="1578910218110" duration="3222000" />
+      <workItem from="1578921126052" duration="626000" />
+      <workItem from="1578922989017" duration="611000" />
     </task>
     <servers />
   </component>

@@ -70,20 +70,31 @@
                             <ul class="nav nav-pills ddmenu">
 
                                 <!-- cette condition est la pour mettre la bonne couleur du background suivant l'onglet choisis-->
-                                <li<?php if( ($_GET['action']=="home") || (!isset($_GET['action']) ))  : ?>
+                                <!-- boutton accuiel-->
+                                <li<?php if( ($_GET['action']=="home") || (!isset($_GET['action']) ))  : //les double points sont obligatoire sa remplace un "{" dans les fichier html?>
                                 class="active"
                                 <?php endif ?>>
                                 <a href="index.php?action=home">Accueil</a></li>
 
+                                <!-- boutton logout-->
+                                <?php if(isset($_SESSION['MotCle'])) : //les double points sont obligatoire sa remplace un "{" dans les fichier html?>
+                                <li><a href="index.php?action=logout">Logout</a></li>
+                                <label>Vous êtes connécté en tant que <?php $_SESSION['MotCle']?></label>
+                                <?php else :?>
+
+                                    <!-- boutton login-->
                                 <li<?php if( ($_GET['action']=="login") )  : ?>
                                     class="active"
                                 <?php endif ?>>
                                 <a href="index.php?action=login">Login</a></li>
+                                <?php endif ?>
 
+                                <!-- boutton produit-->
                                 <li<?php if( ($_GET['action']=="produit") )  : ?>
                                     class="active"
                                 <?php endif ?>>
                                     <a href="index.php?action=produit">Produit</a></li>
+
 
                             </ul>
                         </div>
@@ -103,7 +114,6 @@
 
             <div class="row-fluid">
                 <!--Edit Main Content Area here-->
-
                 <?=$content;?>
                 <!--End Main Content-->
             </div>

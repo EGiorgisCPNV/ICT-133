@@ -21,6 +21,10 @@ if(isset ($_GET['action'])){
             login(@$_POST);
             break;
 
+        case 'logout':
+            logout();
+            break;
+
         case 'produit':
             produit();
             break;

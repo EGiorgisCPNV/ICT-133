@@ -38,7 +38,6 @@ function login($post){
     if(checkLogin($username,$password)){
 
         $_SESSION['MotCle']=$post['password'];
-        echo $_SESSION['MotCle'];
         require "view/home.php";
     }
     else
@@ -54,4 +53,10 @@ function login($post){
 function produit(){
     $_GET['action']="produit";
     require "view/produit.php";
+}
+
+
+function logout(){
+    $_SESSION=SESSION_destroy();
+    home();
 }

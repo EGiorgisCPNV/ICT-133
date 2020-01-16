@@ -24,7 +24,8 @@
     <link href="view/content/scripts/icons/social/stylesheets/social_foundicons.css" media="screen" rel="stylesheet"
           type="text/css"/>
     <!--[if lt IE 8]>
-    <link href="view/content/scripts/icons/general/stylesheets/general_foundicons_ie7.css" media="screen" rel="stylesheet"
+    <link href="view/content/scripts/icons/general/stylesheets/general_foundicons_ie7.css" media="screen"
+          rel="stylesheet"
           type="text/css"/>
     <link href="view/content/scripts/icons/social/stylesheets/social_foundicons_ie7.css" media="screen" rel="stylesheet"
           type="text/css"/>
@@ -73,32 +74,38 @@
 
                                 <!-- cette condition est la pour mettre la bonne couleur du background suivant l'onglet choisis-->
                                 <!-- boutton accuiel-->
-                                <li<?php if( ($_GET['action']=="home") || (!isset($_GET['action']) ))  : //les double points sont obligatoire sa remplace un "{" dans les fichier html?>
-                                class="active"
+                                <li<?php if (($_GET['action'] == "home") || (!isset($_GET['action'])))  : //les double points sont obligatoire sa remplace un "{" dans les fichier html?>
+                                    class="active"
                                 <?php endif ?>>
-                                <a href="index.php?action=home">Accueil</a></li>
+                                    <a href="index.php?action=home">Accueil</a></li>
 
                                 <!-- boutton produit-->
-                                <li<?php if( ($_GET['action']=="produit") )  : ?>
+                                <li<?php if (($_GET['action'] == "produit"))  : ?>
                                     class="active"
                                 <?php endif ?>>
                                     <a href="index.php?action=produit">Produit</a></li>
 
 
-                                <!-- boutton logout-->
-                                <?php if(isset($_SESSION['MotCle'])) : //les double points sont obligatoire sa remplace un "{" dans les fichier html?>
-                                <li><a href="index.php?action=logout">Logout</a></li>
-                                <?php echo "<label>Vous êtes connecté en tant que </label>".$_SESSION['MotCle']?>
-                                <?php else :?>
-
-                                    <!-- boutton login-->
-                                <li<?php if( ($_GET['action']=="login") )  : ?>
+                                <!-- boutton Register-->
+                                <li<?php if (($_GET['action'] == "register"))  : ?>
                                     class="active"
                                 <?php endif ?>>
-                                <a href="index.php?action=login">Login</a></li>
+                                    <a href="index.php?action=register">Register</a></li>
+
+
+                                <!-- boutton logout-->
+                                <?php if (isset($_SESSION['MotCle'])) : //les double points sont obligatoire sa remplace un "{" dans les fichier html?>
+                                    <li><a href="index.php?action=logout">Logout</a></li>
+
+                                    <?php echo "<label>Vous êtes connecté en tant que </label>" . $_SESSION['MotCle'] ?>
+                                <?php else : ?>
+
+                                    <!-- boutton login-->
+                                    <li<?php if (($_GET['action'] == "login"))  : ?>
+                                        class="active"
+                                    <?php endif ?>>
+                                        <a href="index.php?action=login">Login</a></li>
                                 <?php endif ?>
-
-
 
 
                             </ul>
@@ -119,7 +126,7 @@
 
             <div class="row-fluid">
                 <!--Edit Main Content Area here-->
-                <?=$content;?>
+                <?= $content; ?>
                 <!--End Main Content-->
             </div>
 

@@ -34,11 +34,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Exercice/Calendrier" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\GitHub\133\ICT-133\Snow\133-Start-master\model" />
       <recent name="C:\xampp\htdocs\GitHub\133\ICT-133\Snow\133-Start-master\view" />
     </key>
   </component>
@@ -80,6 +81,7 @@
       <workItem from="1578922341183" duration="4669000" />
       <workItem from="1578934468134" duration="2899000" />
       <workItem from="1579161193718" duration="6638000" />
+      <workItem from="1579505514593" duration="15720000" />
     </task>
     <servers />
   </component>

@@ -268,31 +268,6 @@ if (isset($month)) {
     echo "Veillez selectionner un mois svp";
 }
 
-// cette fonction va aligner le nombre du jour au bon jour
-function jourEcrit($Element,$Element2)
-{
-    $i=1;
-    //boucle for qui aligne le jour avec le bon chiffre
-    while ( $i< $Element) {
-        echo "<li></li>";
-        $i++;
-    }
-
-
-    //boucle qui va afficher les 31 jours et qui va mettre en valeur le jour actuelle
-    for ($a = 1; $a <= $Element2; $a++) {
-        $tableauNumJour[$a] = $a;
-
-        //condition qui va mettre en valeur le jour actuelle
-        if ($a == date("d") && $Element2==date("t")) {
-            echo '<li><span class="active">' . $tableauNumJour[$a] . '</span>';
-        } else {
-            echo '<li>';
-            echo $tableauNumJour[$a];
-        }
-    }
-}
-
 
 ?>
 <?php

@@ -35,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Snow/133-Start-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
@@ -127,6 +127,7 @@
       <workItem from="1578922989017" duration="611000" />
       <workItem from="1578933517756" duration="1875000" />
       <workItem from="1579160861501" duration="333000" />
+      <workItem from="1579505661638" duration="1308000" />
     </task>
     <servers />
   </component>

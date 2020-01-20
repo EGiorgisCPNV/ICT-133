@@ -23,8 +23,6 @@ $titre="Rent A Snow - Register";
     </form>
 
 <?php
-//pour les fichier json c'est cet url : https://www.ecosia.org/search?q=ecrire+dans+un+fichier+json+avec+du+php
-//ou sa : https://waytolearnx.com/2019/10/lire-un-fichier-json-avec-php.html
 
 
 // ob_get_clean va clotturer puis $content va valoire tous se qu'il y a depuis ob_start

@@ -21,31 +21,12 @@ function home(){
 }
 
 
-//////////////LE REGISTER AJOUTERA DANS LE FICHIER JSON
 function register(){
-    $_GET['action']="register";
-
-    //chemin d'accès au fichier json
-    $fileJson='view/stockage.json';
-
-//$dataFileJson contient tout ce qu'il y a dans le fichier json (stockage.json)
-    $dataFileJson=file_get_contents($fileJson);
-
-    $data=array(
-        'Username'=>@$_POST['username'],
-        'Password'=>@$_POST['password']
-    );
-
-    //$abc=json_encode();
-    //$def=file_put_contents();
-
-
+    $_POST['action']="register";
+    creatUser();
     require "view/register.php";
 }
 
-
-
-//////////////LE LOGIN VERIFIRA DANS LE FICHIER JSON
 /**
  * Function to redirect the user to the login page
  *  (epending the action received by the index)
@@ -54,48 +35,16 @@ function login($post){
     $_GET['action']="login";
 
 
-    $username=@$_POST['username'];//recuperer ce que l'utilisateur va rentrer comme username
-    $password=@$_POST['password'];//recuperer ce que l'utilisateur va rentrer comme password
-
-
     //cette condition va checker ce que l'utilisateur va rentrer dans la page login est rediriger sur la page home si ce qu'il a rentrer correspond a la la fonction checkLogin dans le model.php sinon sur la page login sa sa ne corespond pas
-    if(checkLogin($username,$password)){
+    if(checkLogin($post)){
 
         $_SESSION['MotCle']=$post['username'];
         require "view/home.php";
+
     }
     else
         require "view/login.php";
 }
-
-
-
-/**
- * Function to redirect the user to the login page
- *  (epending the action received by the index)
- */
-/* FONCTION MIS EN PAUSE
-function login($post){
-
-    $_GET['action']="login";
-
-
-    $username=@$_POST['username'];//recuperer ce que l'utilisateur va rentrer comme username
-    $password=@$_POST['password'];//recuperer ce que l'utilisateur va rentrer comme password
-
-
-    //cette condition va checker ce que l'utilisateur va rentrer dans la page login est rediriger sur la page home si ce qu'il a rentrer correspond a la la fonction checkLogin dans le model.php sinon sur la page login sa sa ne corespond pas
-    if(checkLogin($username,$password)){
-
-        $_SESSION['MotCle']=$post['username'];
-        require "view/home.php";
-    }
-    else
-        require "view/login.php";
-
-
-}
-*/
 
 
 

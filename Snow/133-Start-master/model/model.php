@@ -20,18 +20,19 @@ function checkLogin($element1)
     $obj = json_decode($dataFileJson, true);
 
 
-if(!isset ($element1)){
-    foreach($obj as $cle){
+//condition qui va vérifier si l'utilisateur a deja remplit 1 voir les deux champs remplissable dans $element1
+    if(!isset ($element1)){
+        foreach($obj as $cle){
 
-        if ($element1["username"]==$cle["Utilisateur"] && $element1["password"]==$cle["Password"]) {
-            return true;
-        } else
-        return false;
+            if ($element1["username"]==$cle["Utilisateur"] && $element1["password"]==$cle["Password"]) {
+                return true;
+            } else
+                return false;
 
+        }
     }
-}
-else
-    return false;
+    else
+        return false;
 }
 
 
@@ -69,35 +70,35 @@ function creatUser()
     //chemin d'accès au fichier json
     $fileJson = 'model/stockage.json';
 
-if(file_get_contents($fileJson)==""){
-    $data = array(
-        "Utilisateur" => @$_POST['username'],
-        "Password" => @$_POST['password']
+    //cette condition va vérifier si il y a deja des données dans le fichier si oui alors rajoute un nouveau tableau en laissant celui qui y est/sont deja sinon inscrit le tableau dans le fichier
+    if (file_get_contents($fileJson) == "") {
 
-    );
+        $data = array(
+            "Utilisateur" => @$_POST['username'],
+            "Password" => @$_POST['password']
 
-
-    $dataEncode = json_encode($data, true);
-
-    file_put_contents($fileJson, $dataEncode);
-}
-else{
-    $data = array(
-        "Utilisateur" => @$_POST['username'],
-        "Password" => @$_POST['password']
-
-    );
-
-    $tempArray = file_get_contents($fileJson);
-    $tempArray = json_decode($tempArray, true);
-    array_push($tempArray, $data);
-    $data = json_encode($tempArray, true);
-    file_put_contents($fileJson, $data);
-
-}
+        );
 
 
-    require "view/register.php";
+        $dataEncode = json_encode($data, true);
 
+        file_put_contents($fileJson, $dataEncode);
+    } else {
+        $data = array(
+            "Utilisateur" => @$_POST['username'],
+            "Password" => @$_POST['password']
+
+        );
+
+        $tempArray = file_get_contents($fileJson);
+        $tempArray = json_decode($tempArray, true);
+        array_push($tempArray, $data);
+        $data = json_encode($tempArray, true);
+        file_put_contents($fileJson, $data);
+
+    }
+
+
+echo "Votre compte a bien été créé";
 
 }

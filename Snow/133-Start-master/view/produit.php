@@ -12,7 +12,7 @@ ob_start(); // Ouvre la mémoire tampon , tout ce qui est après ob_start sera d
 $titre = "Rent A Snow - Acceuil";
 
 $json = file_get_contents("model/produit.json");
-$parsed_json = json_decode($json, true);
+$json_decode = json_decode($json, true);
 
 
 
@@ -26,26 +26,30 @@ $parsed_json = json_decode($json, true);
             <th><h3 style="background-color: #aeb5b4">Price</h3></th>
         </tr>
         <?php
-        foreach ($parsed_json as $v) {
+        foreach ($json_decode as $element) {
 
             echo "<tr>";
-            echo '<td align="center" bgcolor="#AEB5B4"><DIV class="dateclass">' . $v['brand'] . '</DIV>';
+            echo "<br>";
+            echo '<td align="center" bgcolor="#AEB5B4"><DIV class="dateclass">' . $element['brand'] . '</DIV>';
             echo "</td>";
             //deuxieme colonne
-            echo '<td align="center" bgcolor="#AEB5B4">' . $v['model'];
+            echo '<td align="center" bgcolor="#AEB5B4">' . $element['model'];
             echo "</td>";
             //troisieme colonne
-            echo '<td align="center" bgcolor="#AEB5B4">' . $v['length'];
+            echo '<td align="center" bgcolor="#AEB5B4">' . $element['length'];
             echo "</td>";
             // 4eme colonne
-            echo '<td align="center" bgcolor="#AEB5B4">' . $v['price'];
+            echo '<td align="center" bgcolor="#AEB5B4">' . $element['price'];
             echo "</td>";
             echo "</tr>";
 
         }
 
         echo '</table>';
-
+        echo "<br>";
+        echo "<br>";
+        echo "<br>";
+        echo "<br>";
         ?>
 
 

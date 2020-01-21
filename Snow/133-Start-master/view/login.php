@@ -24,6 +24,7 @@
     <?php
 
 
+
     /*
     //si il ne remplit dans les deux champ(A SOIVOIR ON PEUT AUSSI LE FAIR DANS LE controler.php ICI -> $username=@$_POST['username']; METTRE UN ISSET A LA PLACE DU @
     if(empty($username) && empty($password)){

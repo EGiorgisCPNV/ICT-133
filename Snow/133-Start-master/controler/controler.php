@@ -20,7 +20,10 @@ function home(){
     require "view/home.php";
 }
 
-
+/**
+ * Function to redirect the user to the register page
+ *  (epending the action received by the index)
+ */
 function register(){
     $_POST['action']="register";
     creatUser();

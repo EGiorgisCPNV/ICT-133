@@ -37,13 +37,13 @@ function checkLogin($element1)
 
 
 // cette fonction va aligner le nombre du jour au bon jour
-function jourEcrit($Element, $Element2)
+function jourEcrit($Element, $Element2, $Element3)
 {
-    $i = 1;
+    $boucle = 1;
     //boucle for qui aligne le jour avec le bon chiffre
-    while ($i < $Element) {
+    while ($boucle < $Element) {
         echo "<li></li>";
-        $i++;
+        $boucle++;
     }
 
 
@@ -52,7 +52,7 @@ function jourEcrit($Element, $Element2)
         $tableauNumJour[$a] = $a;
 
         //condition qui va mettre en valeur le jour actuelle
-        if ($a == date("d") && $Element2 == date("t")) {
+        if ($a == date("d") && $Element3 == date("F")) {
             echo '<li><span class="active">' . $tableauNumJour[$a] . '</span>';
         } else {
             echo '<li>';
@@ -65,7 +65,7 @@ function jourEcrit($Element, $Element2)
 //Cette fonction permet d'écrire ce que l'utilisateur rentre comme username et comme password dans le fichier json (stockage.json)
 function creatUser()
 {
-    $_GET['action'] = "register";
+
 
     //chemin d'accès au fichier json
     $fileJson = 'model/stockage.json';
@@ -101,4 +101,31 @@ function creatUser()
 
 echo "Votre compte a bien été créé";
 
+}
+
+
+
+//cette fonction sert a afficher les numéro des jour au bon jour au mois actuelle
+function showCurrentDay(){
+    $boucle = 1;//variable de bouclage
+
+    //boucle for qui aligne le jour avec le bon chiffre
+    while ($boucle < date("N")) {
+        echo "<li></li>";
+        $boucle++;
+    }
+
+
+    //boucle qui va afficher les 31 jours et qui va mettre en valeur le jour actuelle
+    for ($a = 1; $a <= date("t"); $a++) {
+        $tableauNumJour[$a] = $a;
+
+        //condition qui va mettre en valeur le jour actuelle
+        if ($a == date("d")) {
+            echo '<li><span class="active">' . $tableauNumJour[$a] . '</span>';
+        } else {
+            echo '<li>';
+            echo $tableauNumJour[$a];
+        }
+    }
 }

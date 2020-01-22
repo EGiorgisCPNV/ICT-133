@@ -18,28 +18,40 @@ $json_decode = json_decode($json, true);
 
 ?>
     <html lang="fr">
-    <table width="100%">
+    <table width="100%" border="3px blue dashed">
         <tr>
-            <th><h3 style="background-color: #aeb5b4">Brand</h3></th>
-            <th><h3 style="background-color: #aeb5b4">Model</h3></th>
-            <th><h3 style="background-color: #aeb5b4">Lenght</h3></th>
-            <th><h3 style="background-color: #aeb5b4">Price</h3></th>
+            <th><h2 style="background-color: #2ECCFA"> Brand</h2></th>
+            <th><h2 style="background-color: #2ECCFA">Model</h2></th>
+            <th><h2 style="background-color: #2ECCFA">Lenght</h2></th>
+            <th><h2 style="background-color: #2ECCFA">Price</h2></th>
+            <th><h2 style="background-color: #2ECCFA">qtyAvailable</h2></th>
         </tr>
         <?php
-        foreach ($json_decode as $element) {
+        foreach ($json_decode as $colonne) {
 
             echo "<tr>";
             echo "<br>";
-            echo '<td align="center" bgcolor="#AEB5B4"><DIV class="dateclass">' . $element['brand'] . '</DIV>';
+            //collone Brand
+            echo '<td align="center" bgcolor="#AEB5B4"><DIV class="dateclass">' . $colonne['brand'] . '</DIV>';
             echo "</td>";
-            //deuxieme colonne
-            echo '<td align="center" bgcolor="#AEB5B4">' . $element['model'];
+
+
+            //collone Model
+            echo '<td align="center" bgcolor="#AEB5B4">' . $colonne['model'];
             echo "</td>";
-            //troisieme colonne
-            echo '<td align="center" bgcolor="#AEB5B4">' . $element['length'];
+
+
+            //collone Lenght
+            echo '<td align="center" bgcolor="#AEB5B4">' . $colonne['length'];
             echo "</td>";
-            // 4eme colonne
-            echo '<td align="center" bgcolor="#AEB5B4">' . $element['price'];
+
+
+            //collone Price
+            echo '<td align="center" bgcolor="#AEB5B4">' . $colonne['price'];
+            echo "</td>";
+
+            //collone Quantity_Available
+            echo '<td align="center" bgcolor="#AEB5B4">' . $colonne['qtyAvailable'];
             echo "</td>";
             echo "</tr>";
 

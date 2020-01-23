@@ -14,10 +14,10 @@ $titre="Rent A Snow - Register";
 
     <form class="form" method='POST' action="index.php?action=register">
         <label>Utilisateur</label>
-        <input type="text" name="username" placeholder="Enter Username" id="username" required>
+        <input type="text" name="Username" placeholder="Enter Username" id="Username" required>
         <br>
         <label>Mot de passe</label>
-        <input type="text" name="password" placeholder="Enter Password" id="password" required>
+        <input type="text" name="Password" placeholder="Enter Password" id="Password" required>
         <br>
         <input type="submit" name="boutton">
     </form>

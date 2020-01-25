@@ -101,10 +101,12 @@ echo "Votre compte a bien été créé";
 
 //cette fonction sert a afficher les numéro des jour au bon jour au mois actuelle
 function showCurrentDay(){
+
+
     $boucle = 1;//variable de bouclage
 
     //boucle for qui aligne le jour avec le bon chiffre
-    while ($boucle < date("N")) {
+    while ( $boucle<= date("N") ) {
         echo "<li></li>";
         $boucle++;
     }
@@ -122,4 +124,30 @@ function showCurrentDay(){
             echo $tableauNumJour[$a];
         }
     }
+}
+
+
+
+//cette fonction affiche l'en-tete du calendrier selon si un mois est choisis ou non et si oui par rapport au mois choisis
+function enteteCalendar(){
+    $month = @$_GET['Month'];//la variable $month va contenir l'element choisis du formulaire
+
+    if(isset($month)){
+        echo $month . "<br>";
+        echo "2020";
+    }
+    else{
+        echo date("F") . "<br>";
+        echo "2020";
+    }
+}
+
+
+
+
+//cette fonction affiche une image par rapport au mois choisis par l'utilisateur
+function showMonthPicture($lien){
+
+    echo("<img src=\"$lien\"/>");
+
 }

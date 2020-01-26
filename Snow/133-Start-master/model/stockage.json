@@ -1,15 +1,1 @@
-[
-  {
-    "Utilisateur": "EstebanCPNV",
-    "Password": "1234"
-  },
-  {
-    "Utilisateur": "esteban.giorgis@cpnv.ch",
-    "Password": "sdf"
-    +
-  },
-  {
-    "Utilisateur": "vc",
-    "Password": "cvb"
-  }
-]
+[{"Utilisateur":"sdf","Password":"ffr"}]

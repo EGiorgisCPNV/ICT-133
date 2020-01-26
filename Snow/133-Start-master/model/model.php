@@ -103,10 +103,10 @@ echo "Votre compte a bien été créé";
 function showCurrentDay(){
 
 
-    $boucle = 1;//variable de bouclage
+    $boucle = 0;//variable de bouclage
 
     //boucle for qui aligne le jour avec le bon chiffre
-    while ( $boucle<= date("N") ) {
+    while ( $boucle<= 8-date("N") ) {
         echo "<li></li>";
         $boucle++;
     }
